@@ -1,0 +1,17 @@
+<persistence xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.2" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_2.xsd">
+<persistence-unit name="testeJPA" transaction-type="RESOURCE_LOCAL">
+<class>atividades.Atividade</class>
+<class>tarefas.Tarefa</class>
+<class>pessoas.Coordenador</class>
+<class>projeto.Projeto</class>
+<class>tarefas.Detalhe</class>
+
+<properties>
+<property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/jpa2"/>
+<property name="javax.persistence.jdbc.user" value="root"/>
+<property name="javax.persistence.jdbc.password" value=""/>
+<property name="javax.persistence.jdbc.driver" value="com.mysql.jdbc.Driver"/>
+<!--  <property name="javax.persistence.schema-generation.database.action" value="drop-and-create"/> -->
+</properties>
+</persistence-unit>
+</persistence>
