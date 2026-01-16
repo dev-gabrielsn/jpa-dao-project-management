@@ -64,7 +64,7 @@ private Projeto projeto;
 - Uma tarefa não faz sentido sem um projeto
 - Ao remover um projeto, todas as tarefas associadas são removidas automaticamente
 
-##📝 Tarefa ↔ Detalhe
+### 📝 Tarefa ↔ Detalhe
 - **Tipo:** `OneToMany / ManyToOne`
 - **Direção:** Unidirecional (Tarefa → Detalhe)
 - **Cascade:** ALL
