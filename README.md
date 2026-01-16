@@ -110,10 +110,10 @@ Isso garante que:
 - Diferença entre carregamento LAZY e EAGER
 - Boas práticas em projetos JPA
 
-##👤 Autor
-Gabriel da Silva Nunes
-Estudante de Sistemas para Internet
-Projeto acadêmico desenvolvido para estudo de JPA e persistência de dados
-
-## Observação
+## 👤 Autor:  
+Gabriel da Silva Nunes  
+Estudante de Sistemas para Internet  
+Projeto acadêmico desenvolvido para estudo de JPA e persistência de dados  
+  
+## Observação:  
 Este projeto possui fins educacionais e foi desenvolvido como parte do aprendizado em Programação para Web I.
